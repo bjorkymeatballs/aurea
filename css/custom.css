@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'gothic_ultra_ot';
+    src: url("../fonts/gothic_ultra_ot.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #2F383C;
+    font-family: 'Catamaran';
+    color: white;
+}
+
+.content-body {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.content-body p {
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+
+.content-body section h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.content-body section p {
+    padding: 10px 0;
+}
+
+.content-body table {
+    width: 100%;
+}
+
+.content-body td {
+    text-align: center;
+    width: 33%;
+    padding: 15px;
+}
+
+img.icon-sm {
+    border-radius: 50%;
+    width: 100px;
+    border: 1px solid #59C8E2;
+    margin-bottom: 0px;
+}
+
+.nav-header {
+    position: fixed;
+    display: none;
+    top: 0;
+    background: #2f373c;
+    width: 100%;
+    z-index: 9999;
+    padding: 30px 60px;
+}
+
+.btn-info {
+    color: #59C8E2;
+    background-color: transparent;
+    border-color: #59C8E2;
+}
+
+.btn-info:hover {
+    color:#59C8E2;
+    background-color:transparent;
+    border-color:#26b6d8;
+}
+
+.btn-warning {
+    color: #FBB31B;
+    background-color: transparent;
+    border-color: #FBB31B;
+}
+
+.btn-warning:hover {
+    color:#FBB31B;
+    background-color:transparent;
+    border-color:#d59204;
+}
+
+img.icon {
+    border-radius: 50%;
+    width: 170px;
+    border: 1px solid #59C8E2;
+    margin-bottom: 30px;
+}
+
+#lead {
+    margin-bottom: 20px;
+    font-size: 12px !important;
+    letter-spacing: 2.5px;
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 60px;
+    margin: 40px;
+}
+
+.hero h1 {
+    color: #FBB31B;
+    font-size: 4em;
+}
+
+.blue {
+    color: #59C8E2;
+}
+
+.dropdown-menu {
+    padding: 10px 0px 10px 10px;
+}
+
+.dropdown-item {
+    line-height: 2em;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 12px !important;
+    letter-spacing: 2.5px;
+    text-transform: uppercase !important;
+}
+
+.subject div {
+    margin-bottom: 35px;
+}
+
+a {
+    color: #F9C254;
+}
+
+a:hover {
+    color: #fbb31b;
+    text-decoration: none;
+}
+
+.left-par {
+    text-align: justify;
+}
+
+.quote {
+    float: right;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+/*****************
+    BOOK CONTENT 
+*****************/
+
+h1.book {
+    font-family: 'gothic_ultra_ot';
+}
+
+h2.book {
+    font-family: 'gothic_ultra_ot';
+}
+
+p.content-text {
+    text-indent: 50px;
+    text-align: left;
+}
+
+p.content-text.book {
+    font-family: 'EB Garamond', serif;
+}
+
+div.annotation-bottom {
+    display: none;
+    overflow-y: scroll;
+
+    background-color: #424E54 /*#3C474C*/;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 25%;
+
+    padding: 2%;
+}
+
+div.annotation-bottom p {
+    font-family: 'EB Garamond', serif;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.3em;
+}
+
+span.annotation-link {
+    border-bottom: 1px white dashed;
+}
+
+span.annotation-link-close {
+    color: #F9C254;
+    cursor: pointer;
+}
+
+span.annotation-link:hover {
+    color: #F9C254;
+    cursor: pointer;
+}
+
+/*****************
+    SCROLL BAR 
+*****************/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #F9C254; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fbb31b; 
+}
+
+/*
+section.photos {
+    position: relative;
+    width: 140%;
+    left: -20%;
+}
+
+section.photos .photos-section {
+    position: relative;
+    height: 100vh;
+    margin-bottom: -10vh;
+    z-index: -1;
+}
+
+section.photos .photos-section.full-deck {
+    background: url(../img/cathedral.jpg) no-repeat center center;
+    background-size: 100%;
+}*/
